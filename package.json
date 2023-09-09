@@ -1,0 +1,18 @@
+{
+  "name": "parking-lot-management-application",
+  "version": "1.0.0",
+  "description": "This is a parking lot management application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/index"
+  },
+  "author": "Gaurav Pise",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.5.0"
+  }
+}

@@ -14,6 +14,7 @@
 
 - **POST api url to create parking-lots:**
 https://parking-lot-service.onrender.com/create-parkingLot
+
 {
     "parkName": "park4",
     "location":"location4",
@@ -30,6 +31,7 @@ https://parking-lot-service.onrender.com/create-parkingLot
 }
 - **POST api url to create vehicle :**
 https://parking-lot-service.onrender.com/create-vehicle
+
 {
     "vehicleName" : "Two_Wheeler",
     "vehicleNumber" : 1008
@@ -37,6 +39,7 @@ https://parking-lot-service.onrender.com/create-vehicle
 
 - **POST api url to park vehicle :**
 https://parking-lot-service.onrender.com/parking-vehicle
+
 {
      "parkName": "park2",
     "vehicleNumber": 1004
@@ -44,11 +47,13 @@ https://parking-lot-service.onrender.com/parking-vehicle
 
  - **POST api url to exit vehicle :**
 https://parking-lot-service.onrender.com/exit-vehicle
+
 {
      "parkName": "park2",
     "vehicleNumber": 1002
 }
 
 - **GET api url to get parking history of vehicle :**
+
 https://parking-lot-service.onrender.com/get-vehicle-parking-history/1001
 (vehicleNumber is 1001)
